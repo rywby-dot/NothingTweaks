@@ -30,6 +30,7 @@ import com.souleven.nothingos.hooks.VolumeStepsHooks
 import com.souleven.nothingos.hooks.LauncherHooks
 import com.souleven.nothingos.hooks.StatusBarIconHooks
 import com.souleven.nothingos.hooks.ScreenshotHooks
+import com.souleven.nothingos.hooks.ScreenOffFingerprintHooks
 import de.robv.android.xposed.IXposedHookLoadPackage
 import de.robv.android.xposed.XC_MethodHook
 import de.robv.android.xposed.XC_MethodReplacement
@@ -96,6 +97,7 @@ class MainHook : IXposedHookLoadPackage {
             hooks.add("EarphoneIconHooks" to EarphoneIconHooks())
             hooks.add("ClockHooks" to ClockHooks())
             hooks.add("FingerprintHooks" to FingerprintHooks())
+            hooks.add("ScreenOffFingerprintHooks" to ScreenOffFingerprintHooks())
             hooks.add("AIClipboardHooks" to AIClipboardHooks())
             hooks.add("MiscHooks" to MiscHooks())
             hooks.add("PowerMenuHooks" to PowerMenuHooks())

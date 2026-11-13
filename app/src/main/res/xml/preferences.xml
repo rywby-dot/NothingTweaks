@@ -348,6 +348,13 @@
         app:iconSpaceReserved="false">
 
         <SwitchPreferenceCompat
+            app:key="fp_hide_screen_off_icon"
+            app:title="@string/pref_fp_hide_screen_off_icon"
+            app:summary="@string/pref_fp_hide_screen_off_icon_desc"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
             app:key="fp_color_enabled"
             app:title="@string/pref_fp_enabled"
             app:summary="@string/pref_fp_enabled_desc"

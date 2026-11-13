@@ -201,4 +201,6 @@
     <string name="hide_icon_alarm">Будильник</string>
     <string name="pref_screenshot_disable_flash">Отключить вспышку скриншота</string>
     <string name="pref_screenshot_disable_flash_desc">Отключить белую вспышку экрана при создании скриншота.</string>
+    <string name="pref_fp_hide_screen_off_icon">Скрыть значок отпечатка после выключения экрана</string>
+    <string name="pref_fp_hide_screen_off_icon_desc">Не показывать значок отпечатка на несколько секунд после выключения экрана. AOD и разблокировка отпечатком остаются доступны.</string>
 </resources>
