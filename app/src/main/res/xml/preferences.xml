@@ -206,6 +206,13 @@
         app:iconSpaceReserved="false">
 
         <SwitchPreferenceCompat
+            app:key="screen_off_gesture_guard"
+            app:title="@string/pref_screen_off_gesture_guard"
+            app:summary="@string/pref_screen_off_gesture_guard_desc"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
             app:key="pref_lockscreen_double_tap_to_sleep"
             app:title="@string/pref_lockscreen_double_tap_to_sleep_title"
             app:summary="@string/pref_lockscreen_double_tap_to_sleep_summary"

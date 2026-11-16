@@ -31,6 +31,7 @@ import com.souleven.nothingos.hooks.LauncherHooks
 import com.souleven.nothingos.hooks.StatusBarIconHooks
 import com.souleven.nothingos.hooks.ScreenshotHooks
 import com.souleven.nothingos.hooks.ScreenOffFingerprintHooks
+import com.souleven.nothingos.hooks.ScreenOffGestureHooks
 import de.robv.android.xposed.IXposedHookLoadPackage
 import de.robv.android.xposed.XC_MethodHook
 import de.robv.android.xposed.XC_MethodReplacement
@@ -89,6 +90,7 @@ class MainHook : IXposedHookLoadPackage {
 
         val hooks = mutableListOf<Pair<String, HookModule>>()
         if (lpparam.packageName == PKG_SYSTEMUI) {
+            hooks.add("ScreenOffGestureHooks" to ScreenOffGestureHooks())
             hooks.add("FeatureFlagHooks" to FeatureFlagHooks())
             hooks.add("ScreenshotHooks" to ScreenshotHooks())
             hooks.add("VolumeHooks" to VolumeHooks())
