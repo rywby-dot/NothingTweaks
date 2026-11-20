@@ -6,6 +6,11 @@
     <string name="status_active_desc">Hooks are loaded successfully.</string>
     <string name="status_inactive_desc">Enable Nothing Tweaks in LSPosed, select the apps in scope, then reboot.</string>
 
+    <!-- Settings Integration -->
+    <string name="cat_settings_integration">Settings Integration</string>
+    <string name="pref_integrate_settings_title">Show in Settings</string>
+    <string name="pref_integrate_settings_summary">Display Nothing Tweaks at the top of System Settings. You can hide the app icon from your launcher yourself if desired.</string>
+
     <!-- System -->
     <string name="category_system">System</string>
     
@@ -56,8 +61,8 @@
     <string name="title_hide_ime_bar">Hide Keyboard Space</string>
     <string name="summary_hide_ime_bar">Removes empty space under the keyboard and hides the navigation handle while typing.</string>
 
-    <string name="pref_back_gesture_kill_title">Long Swipe Back to Kill App</string>
-    <string name="pref_back_gesture_kill_summary">Hold the back swipe gesture then release to force-stop the foreground app.</string>
+    <string name="pref_back_gesture_kill_title">Back Gesture Hold to Kill App</string>
+    <string name="pref_back_gesture_kill_summary">Hold the back gesture or back button to force close the foreground app.</string>
 
     <!-- Status bar -->
     <string name="cat_statusbar">Status bar</string>
@@ -206,4 +211,36 @@
     <string name="pref_fp_hide_screen_off_icon_desc">Skip the brief fingerprint icon display after turning off the screen. AOD and fingerprint unlock remain available.</string>
     <string name="pref_screen_off_gesture_guard">Fix gestures during screen-off animation</string>
     <string name="pref_screen_off_gesture_guard_desc">Prevent lockscreen gestures and tap-to-wake during the screen-off transition. Fingerprint unlock remains available.</string>
+
+    <!-- Essential key -->
+    <string name="pref_essential_key_header">Essential Key</string>
+    <string name="pref_essential_single_title">Essential key: Single press</string>
+    <string name="pref_essential_double_title">Essential key: Double press</string>
+    <string name="pref_essential_triple_title">Essential key: Triple press</string>
+    <string name="pref_essential_long_title">Essential key: Long press</string>
+    <string name="pref_essential_app_title">App</string>
+    <string name="pref_essential_app_summary">Select an app</string>
+    <string name="essential_action_default">System default</string>
+    <string name="essential_action_none">Do nothing</string>
+    <string name="essential_action_flashlight">Toggle flashlight</string>
+    <string name="essential_action_ringer">Cycle sound mode</string>
+    <string name="essential_action_screenshot">Take screenshot</string>
+    <string name="essential_action_app">Open app</string>
+
+    <!-- About & Developer Credits -->
+    <string name="about_category_title">About &amp; Credits</string>
+    <string name="about_developer_header">DEVELOPER</string>
+    <string name="about_developer_name">Ayush Maurya</string>
+    <string name="about_developer_handle">Revealed SoulEven (@RevealedSoulEven)</string>
+    <string name="about_developer_url">https://github.com/RevealedSoulEven</string>
+    <string name="about_source_title">Source Code</string>
+    <string name="about_source_summary">GitHub repository</string>
+    <string name="about_source_url">https://github.com/RevealedSoulEven/NothingTweaks</string>
+    <string name="about_issue_title">Report an Issue</string>
+    <string name="about_issue_summary">Submit a bug report on GitHub</string>
+    <string name="about_issue_url" formatted="false">https://github.com/RevealedSoulEven/NothingTweaks/issues/new?labels=bug&amp;title=%28bug%29+</string>
+    <string name="about_feature_title">Request a Feature</string>
+    <string name="about_feature_summary">Suggest new ideas or feature requests</string>
+    <string name="about_feature_url" formatted="false">https://github.com/RevealedSoulEven/NothingTweaks/issues/new?labels=enhancement&amp;title=%28feat%29+</string>
+    <string name="about_tagline">Made with ❤ for Nothing OS</string>
 </resources>
